@@ -42,7 +42,7 @@ public class check {
         suma = cyfra[0] + cyfra[1] * 3 + cyfra[2] * 7 + cyfra[3] * 9 + cyfra[4];
         suma += cyfra[5] * 3 + cyfra[6] * 7 + cyfra[7] * 9 + cyfra[8] + cyfra[9] * 3;
 
-        if( (suma % 10) == cyfra[10]) {
+        if( ( 10 - (suma % 10) ) == cyfra[10]) {
 
             return true;
 
